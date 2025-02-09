@@ -18,7 +18,7 @@ How DockerCoins works:
  Create a Dockerfile for each of the 4 directory.
 
  Hint:
-  - For *hasher*, this is a Ruby application, listening on port 80. The apps require to have sinatra (version 3) and thin Ruby libraries , installed through gem command line.
+  - For *hasher*, this is a Ruby application, listening on port 80. The apps require to have sinatra and rackup and puma Ruby libraries , installed through gem command line.
   - For *rng*, this is a Python app that only require Flask library, installed through pip command line, and also listening on port 80.
   - For *webui*, this is a Node JS app, that require express and redis (version 3) libraries, installed trough npm command line, and also listening on port 80.
   - For *worker*, this is a Python app that require redis and requests libraries, installed through pip command line. This app does not expose any port.
