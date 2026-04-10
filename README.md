@@ -25,7 +25,7 @@ How DockerCoins works:
 
 You should now have enough information to write the 4 Dockerfiles.
 
-Validate that you can build the 4 container images, and you can run them separately.
+Validate that you can build the 4 container images.
 
 # Second part
 
